@@ -1,0 +1,5 @@
+config:
+  aws:region: us-east-1
+  pulumi-go:bucketName: my-first-go-bucket
+  pulumi-go:ssmName: /app/lambdaParam
+  pulumi-go:ssmValue: hello-world
